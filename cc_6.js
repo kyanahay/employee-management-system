@@ -1,5 +1,5 @@
 // Employee Management System 
-// Step 2:Create a base class called Employee
+// Step 2: Create a base class called Employee
 class Employee {
   constructor(name, department) {
     this.name = name;
