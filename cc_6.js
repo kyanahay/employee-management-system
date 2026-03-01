@@ -1,4 +1,6 @@
 // Employee Management System 
+
+
 // Step 2: Create a base class called Employee
 class Employee {
   constructor(name, department) {
@@ -10,6 +12,7 @@ class Employee {
     return `Employee: ${this.name} | Department: ${this.department}`;
   }
 }
+
 
 // Step 3: Create a subclass called Manager
 class Manager extends Employee {
@@ -31,6 +34,7 @@ const emp2 = new Employee("Darren Singh", "IT Support");
 
 const mgr1 = new Manager("Keisha Mohammed", "Operations", 8);
 const mgr2 = new Manager("Brian Carter", "Sales", 5);
+
 
 // Step 5: Create a class called Company with a property employees (an array)
 class Company {
