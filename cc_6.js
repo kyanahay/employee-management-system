@@ -1,7 +1,7 @@
 // Employee Management System 
 
 
-// Step 2: Create a base class called Employee
+// Step 1: Create a base class called Employee
 class Employee {
   constructor(name, department) {
     this.name = name;
@@ -14,7 +14,7 @@ class Employee {
 }
 
 
-// Step 3: Create a subclass called Manager
+// Step 2: Create a subclass called Manager
 class Manager extends Employee {
   constructor(name, department, teamSize) {
     super(name, department); // inherit name + department
@@ -28,7 +28,7 @@ class Manager extends Employee {
 }
 
 
-// Step 4: Create a few sample employees and managers 
+// Step 3: Create a few sample employees and managers 
 const emp1 = new Employee("Alicia James", "Accounting");
 const emp2 = new Employee("Darren Singh", "IT Support");
 
@@ -36,7 +36,7 @@ const mgr1 = new Manager("Keisha Mohammed", "Operations", 8);
 const mgr2 = new Manager("Brian Carter", "Sales", 5);
 
 
-// Step 5: Create a class called Company with a property employees (an array)
+// Step 4: Create a class called Company with a property employees (an array)
 class Company {
   constructor() {
     this.employees = [];
@@ -55,7 +55,7 @@ class Company {
 }
 
 
-// Step 6: Instantiate a Company object with both employee and manager instances
+// Step 5: Instantiate a Company object with both employee and manager instances
 const myCompany = new Company();
 myCompany.addEmployee(emp1);
 myCompany.addEmployee(emp2);
